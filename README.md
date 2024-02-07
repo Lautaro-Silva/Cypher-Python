@@ -1,2 +1,4 @@
-# Cypher-Python
-I will test diferent types of password cyphers using Python
+## Cypher-Python
+I will test diferent types of password/text cyphers using Python. Firstly a Ceaser or fixed-shift of characters to encrypt the message and then using the Vigenere cypher, where given a custom key, each character of the text given for encyption is shifted a different ammount of characters (dependent of the key). In the final version i also add the posibility to decrypt messages as well as encrypt them.
+
+After some research the main weakness of the Vigenere cypher is: '(...) the repeating nature of its key. If a cryptanalyst correctly guesses the key's length n, the cipher text can be treated as n interleaved Caesar ciphers, which can easily be broken individually. The key length may be discovered by brute force testing each possible value of n, or Kasiski examination and the Friedman test can help to determine the key length'
