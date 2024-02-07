@@ -1,4 +1,4 @@
-## This is a text cypher using only letters as keys and a the same shift for every letter
+## This is a text cypher using only a fixed shift in letters as key
 
 def caesar_v1(message, offset):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
@@ -12,6 +12,7 @@ def caesar_v1(message, offset):
             encrypted_text += alphabet[new_index]
     print('plain text:', message)
     print('encrypted text:', encrypted_text)
+    return encrypted_text
 
 
 text = 'Hello World'
@@ -34,3 +35,4 @@ def caesar_v2(message, offset):
             encrypted_text += alphabet[new_index]
     print('plain text:', message)
     print('encrypted text:', encrypted_text)
+    return encrypted_text
