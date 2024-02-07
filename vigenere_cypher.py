@@ -30,7 +30,7 @@ print(encryption)
 
 ## Also i can implement a decryption method using the same cypher
 
-def vigenere_en_de(message, key, direction):
+def vigenere_en_de(message, key, direction=1):
     key_index = 0
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     encrypted_text = ''
