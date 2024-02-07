@@ -120,6 +120,6 @@ def decrypt(message, key):
     return vigenere(message, key, -1)
 
 encrypted = encrypt(text, custom_key)
-print(encrypted)
+print(f'Encrypted text: {encrypted}') # First time i fully understood how to use f-string
 decrypted = decrypt(encrypted, custom_key)
 print(decrypted)
